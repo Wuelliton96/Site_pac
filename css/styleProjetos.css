@@ -1,0 +1,91 @@
+#section1 {
+  color: #fdfdfd;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#section1 .title {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#section1 .title h2 {
+  text-transform: uppercase;
+}
+
+.decoracao-title {
+  width: 100px;
+  height: 2px;
+  background-color: #68967A;
+}
+
+.div-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tab {
+  overflow: hidden;
+  background-color: #121212;
+  color: #fdfdfd;
+}
+
+.tab button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  color: #fdfdfd;
+  border: 0.5px solid #68967A;
+  border-radius: 15px;
+  width: 230px;
+  margin-right: 0.5vw;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.tab button:hover {
+  background-color: #68967A;
+  border-radius: 15px;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+  margin-top: 25px;
+  transition: 2s;
+  width: 70%;
+}
+
+.tabcontent div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tabcontent img {
+  height: 25vh;
+}
+
+.card-text {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+img {
+  border-radius: 5px;
+}

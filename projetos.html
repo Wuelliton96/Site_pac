@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>PAC - N2</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styleProjetos.css">
+    <script src="./js/tab.js"></script>
+</head>
+<body onload="openTab(event, 'tab1', 'flex')">
+    <nav class="fixed-top d-flex justify-content-between">
+      <div>
+        <a href="./index.html">
+          <img src="./images/logo-site.png" alt="logo" class="logo">
+        </a>
+      </div>
+      <ul>
+        <a href="./index.html">
+          <li>Home</li>
+        </a>
+        <a href="./grupo.html">
+          <li>Grupo</li>
+        </a>
+        <a href="./robotica.html">
+          <li>Robótica na TI</li>
+        </a>
+        <a href="./projetos.html">
+          <li class="li-active">Projetos</li>
+        </a>
+        <a href="./quiz.html">
+          <li>Quiz</li>
+        </a>
+      </ul>
+    </nav>
+
+    <section id="section1" class="mt-5">
+      <div class="w-100 text-center title mb-4">
+        <h2>Projetos</h2>
+        <div class="decoracao-title"></div>
+        <p class="mt-3">
+          Esses projetos foram realizados através do aplicativo tinkercad.
+        </p>
+      </div>
+      <div class="div-tab">
+        <div class="tab">
+          <button class="tablinks" onclick="openTab(event, 'tab1', 'flex')" selected>Arduino Uno</button>
+          <button class="tablinks" onclick="openTab(event, 'tab3', 'flex')">Motor DC</button>
+          <button class="tablinks" onclick="openTab(event, 'tab4', 'flex')">Dois Motores CC</button>
+          <button class="tablinks" onclick="openTab(event, 'tab5', 'flex')">Seguidor de Linha</button>
+        </div>
+
+        <div id="tab1" class="tabcontent row justify-content-between">
+          <div class="col-6 col-sm-12 col-md-12 col-lg-5 col-xl-5 mt-4">
+            <h4>Semáforo</h4>
+            <p>
+              Nesse projeto construímos 2 semáforos, um para pedestres e outro para carros. Para esse projeto usamos os seguintes 
+              componentes: um arduino UNO, uma placa de ensaio pequena, 5 LEDs e 5 resistores. Colocamos um delay de 4 seguindos para efetuar a 
+              mudança da cor de ambos os sinais.
+            </p>
+
+            <div class="col-6 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+              <a href="https://www.tinkercad.com/things/2j87E4j6McM" target="_blank" rel="noopener noreferrer">
+                <img src="./images/Tinkercad-Semaforo.png" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-12 col-md-12 col-lg-5 col-xl-5 mt-4">
+            <h4>Luz de emergência</h4>
+            <p>
+              O objetivo era construir uma luz de emergência, que quando ficar sem luminosidade acendesse um led. 
+              Para esses projetos usamos o seguintes componentes: um Arduino UNO, um Led, um sensor LDR.
+            </p>
+
+            <div class="col-6 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+              <a href="https://www.tinkercad.com/things/dIsKjW4XCHB?sharecode=3Qsac0-utNwF2Fw5EanN8zW2wpGTarCNAsf_ukco9n4" target="_blank" rel="noopener noreferrer">
+                <img src="./images/Tinkercad-LuzEmergencia.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div id="tab3" class="tabcontent">
+          <div>
+            <h4>Motor DC</h4>
+            <p>
+              Construímos um motor DC que tem o objetivo de ir para frente e para trás. Para isso usamos um driver (ponte H), uma bateria e
+              um motor. 
+            </p>
+
+            <div>
+              <a href="https://www.tinkercad.com/things/1AZIvSksjz7" target="_blank" rel="noopener noreferrer">
+                <img src="./images/Tinkercad-P3.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div id="tab4" class="tabcontent">
+          <div>
+            <h4>Dois Motores CC</h4>
+            <p>
+              Controla dois motores nos sentidos: frente, trás, direita e esquerda. Para esse projeto usamos: um Arduino UNO,
+              duas placas de ensaio mini, quatro fotorresistores, dois motores CC, sete resistores, um LED RGB, uma bateria 9V e
+              um acionador de motor de ponte H.
+
+            </p>
+
+            <div>
+              <a href="https://www.tinkercad.com/things/8pXpgp2Eqbj?sharecode=G0A-KPUF1NHl9YYYcC0Y_39Y04zUSBOi8HDvET9rT_0" target="_blank" rel="noopener noreferrer">
+                <img src="./images/Tinkercad-P4.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div id="tab5" class="tabcontent justify-content-between w-100">
+          <div class="flex-direction-collumn">
+            <div>
+              <h4>Seguidor de Linha</h4>
+            </div>
+            <div class="flex-row">
+              <div class="col-4 col-sm-6 col-md-6 col-lg-4 col-xl-4 mr-2">
+                <img src="./images/seguidorLinha/1.jpeg" alt="First slide">
+              </div>
+              <div class="col-4 col-sm-6 col-md-6 col-lg-4 col-xl-4 mr-2">
+                <video autoplay loop width="400" class="rounded">
+                  <source src="./images/seguidorLinha/video2.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                <img src="./images/seguidorLinha/2.jpeg" alt="Second slide">
+              </div>
+            </div>
+          </div>
+                   
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

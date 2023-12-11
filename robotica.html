@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>PAC-N2</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styleRobotica.css">
+    <script src="./js/tab.js"></script>
+</head>
+<body onload="openTab(event, 'tab1', 'block')">
+    <nav class="fixed-top d-flex justify-content-between">
+      <div>
+        <a href="./index.html">
+          <img src="./images/logo-site.png" alt="logo" class="logo">
+        </a>
+      </div>
+      <ul>
+        <a href="./index.html">
+          <li>Home</li>
+        </a>
+        <a href="./grupo.html">
+          <li>Grupo</li>
+        </a>
+        <a href="./robotica.html">
+          <li  class="li-active">Robótica na TI</li>
+        </a>
+        <a href="./projetos.html">
+          <li>Projetos</li>
+        </a>
+        <a href="./quiz.html">
+          <li>Quiz</li>
+        </a>
+      </ul>
+    </nav>
+
+    <section id="section1">
+      <div class="d-flex flex-column justify-content-center align-items-center p-3">
+        <img src="./images/robo.gif" alt="robo">
+        <h2 class="mt-4">O Robótica na TI</h2>
+      </div>
+
+      <div class="div-tab">
+        <div class="tab">
+          <button class="tablinks" onclick="openTab(event, 'tab1', 'block')">Objetivo do Trabalho</button>
+          <button class="tablinks" onclick="openTab(event, 'tab2', 'block')">O que é robótica?</button>
+          <button class="tablinks" onclick="openTab(event, 'tab3', 'block')">Robótica na TI</button>
+          <button class="tablinks" onclick="openTab(event, 'tab4', 'block')">Vídeo</button>
+        </div>
+
+        <div id="tab1" class="tabcontent">
+          <h5>Objetivo do Trabalho</h5>
+          <p>
+            Nosso trabalho tem o intuito de conceituar o que é robótica. Mostrar o quanto a robótica está cada vez mais presente em nosso 
+            dia a dia e trazer uma reflexão do porquê a robótica deve estar presente na TI. 
+          </p> 
+        </div>
+
+        <div id="tab2" class="tabcontent">
+          <h5>Robótica é ...</h5>
+          <p>Robótica é a ciência que estuda as tecnologias associadas a concepção e construção de robôs.​</p>
+          
+          <h5>Robô é ...​</h5>
+          <p>Os robôs são mecanismos automáticos que utilizam de circuitos integrados para realizarem atividades e movimentos humanos simples ou complexos. ​</p>
+        </div>
+        
+        <div id="tab3" class="tabcontent">
+          <h5>Porque robótica na TI?</h5>
+          <p>
+            Como a tecnologia está cada vez mais presente em nosso cotidiano. A robótica se envolvendo cada vez mais com a TI, trazendo inovações e melhorias 
+            para todas as áreas da nossa sociedade, partindo do meio doméstico até o profissional.Os robôs exercendo tarefas mais específicas possibilita que os seres humanos se foquem 
+            nas tarefas que demandam mais empatia e relacionamento social, causando um crescimento considerável para empresas e para a sociedade. 
+          </p>
+        </div>
+        
+        <div id="tab4" class="tabcontent">
+          <h5>Porque robótica na TI?</h5>
+          <div class="mt-1">
+            <iframe width="800" height="400" src="https://www.youtube-nocookie.com/embed/NYenVxKt1s4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

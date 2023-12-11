@@ -1,0 +1,78 @@
+#section1 {
+    color: #fdfdfd;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#section1 .title {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section1 .title h2 {
+    text-transform: uppercase;
+}
+
+.decoracao-title {
+    width: 100px;
+    height: 2px;
+    background-color: #68967A;
+}
+
+.button-start {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    color: #fdfdfd;
+    border: 0.5px solid #68967A;
+    border-radius: 15px;
+    width: 230px;
+    margin-right: 0.5vw;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.button-start:hover {
+    background-color: #68967A;
+    border-radius: 15px;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+    margin-top: 25px;
+    transition: 2s;
+    width: 70%;
+}
+
+.tabcontent div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabcontent img {
+    height: 25vh;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 0.5px solid #68967A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #68967A;
+}

@@ -1,0 +1,98 @@
+html {
+    scroll-behavior: smooth;
+    transition: 2s;
+}
+
+body {
+    background-color: #121212;
+}
+
+a:hover {
+    color: #68967A;
+    text-decoration: none;
+}
+
+.li-active {
+    color: #68967A;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+nav {
+    height: 13vh;
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 50px;
+}
+
+nav li {
+    margin: 10px 15px 0 15px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    color: #e2dfe0;
+    transition: 0.2s;
+}
+
+nav li:hover {
+    text-decoration: none;
+    color: #68967A;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+.logo {
+    height: 8vh;
+    margin: 10px 50px;
+}
+
+#slide1 {
+    height: 100vh;
+    background-image: url('../images/slide1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70%;
+    background-attachment: fixed;
+    color: #121212;
+}
+
+#slide1 .text{
+    padding: 0 50px 0 0;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+}
+
+.menu-itens {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.tablinks:focus {
+    background-color: #68967A;
+    color: #fdfdfd;
+}
+
+@media only screen and (max-width: 900x) {
+    .menu-itens {
+        display: block;
+    }
+}
